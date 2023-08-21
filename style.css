@@ -40,6 +40,16 @@ body {
   letter-spacing: -1.5px;
 }
 
+@media (max-width: 744px) {
+  .header {
+    padding: 64px 72px 40px 72px;
+  }
+
+  .header__title {
+    font-size: 40px;
+  }
+}
+
 /* #endregion */
 
 /* #region menu */
@@ -92,6 +102,12 @@ body {
   background-color: rgba(255, 255, 255, 1);
 }
 
+@media (max-width: 744px) {
+  .main {
+    padding: 72px;
+  }
+}
+
 /* #region recommended */
 
 .recommended {
@@ -113,6 +129,16 @@ body {
   justify-content: center;
   gap: 24px;
   margin-bottom: 32px;
+}
+
+@media (max-width: 744px) {
+  .recommended__products {
+    flex-direction: column;
+  }
+
+  .recommended__title {
+    font-size: 40px;
+  }
 }
 
 /* #endregion */
@@ -159,6 +185,12 @@ body {
   font-weight: 700;
   text-align: center;
   letter-spacing: -1.5px;
+}
+
+@media (max-width: 744px) {
+  .categories__title {
+    font-size: 40px;
+  }
 }
 
 /* #endregion */
@@ -219,6 +251,11 @@ body {
   font-weight: 700;
 }
 
+@media (max-width: 744px) {
+  .how_to_buy__title {
+    font-size: 40px;
+  }
+}
 /* #endregion */
 
 .footer {
