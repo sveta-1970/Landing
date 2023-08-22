@@ -42,8 +42,7 @@ body {
 
 @media (max-width: 1024px) {
   .header {
-    padding: 64px 72px;
-    background-image: url(./images/Header-background_small.png);
+    padding: 64px 72px 40px 72px;
   }
 
   .header__title {
@@ -54,6 +53,7 @@ body {
 @media (max-width: 576px) {
   .header {
     padding: 32px 20px;
+    background-image: url(./images/Header-background_small.png);
     background-position: 0 0;
   }
 
